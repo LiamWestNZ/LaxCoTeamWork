@@ -5,7 +5,7 @@ import { SketchPicker } from 'react-color';
 
 import './body.css'
 import './toolbar.css';
-//WHAT YOU WERE DOING WHEN YOU LEFT OFF: Changing App State from other component
+
 
 class App extends React.Component {
   constructor(props){
