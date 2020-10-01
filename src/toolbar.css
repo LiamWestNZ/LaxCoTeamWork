@@ -1,0 +1,50 @@
+nav.toolbar {
+    top: 0px;
+    background: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px 2px #ccc;
+    z-index: 4;
+    text-decoration: bold;
+    margin-bottom: 100px;
+}
+ul{
+    background: black;
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    height: 100%;
+    align-items: center;
+    box-shadow: 2px 2px 2px #ccc;
+}
+h1{
+    padding-left: 30px;
+}
+.tools{
+    width: 860px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 5px;
+    top: 40%;
+    left: 28.5%;
+    margin: -25px 2px 0 -25px;
+    
+}
+
+footer{
+    min-height:50px;
+    background:
+    PapayaWhip; 
+}
+
+@media print {
+    nav.toolbar, ul, h1, .tools, footer{
+        visibility: hidden;
+    }
+}
+
+
